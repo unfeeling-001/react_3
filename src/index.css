@@ -11,14 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.left{
-  background-color: green;
-  border-radius: 20px;
-  padding-left: 15px;
-  color: white;
+
+h1{
+  color: #64C4ED;
+  font-size: 32px;
+  font-weight: 700;
 }
-.right{
-  background-color: antiquewhite;
-  border-radius: 20px;
-  padding-left: 15px;
+
+header{
+  display: flex;
+  justify-content: center;
+}
+.form{
+  display: flex;
+}
+.form input{
+  border: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+.form button{
+  border: 0px;
+  width: 14px;
+  background-color: white;
+  color: #B4B4B4;
+}
+.App{
+  margin: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.item-todo{
+  justify-content: space-between;
+  display: flex;
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.item-text{
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+.strike{
+  text-decoration: line-through;
+  color: #0cff2c;
+}
+.item-delete{
+  padding: 5px;
+  color: white;
+  background-color: red;
+  border-radius: 8px;
 }
